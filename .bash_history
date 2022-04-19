@@ -65,3 +65,21 @@ git remote set-url origin https://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@githu
 git remote add origin  https://github.com/shivpip131/test.git
 git remote set-url origin https://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@github.com/shivpip131/test.git
 git push -u origin  master
+ls
+git remote remove origin
+git remote remove origin1
+git remote add origin master https://githu.com/shivpip/test.git
+git remote add origin  https://githu.com/shivpip/test.git
+git push -f  origin master  https://githu.com/shivpip/test.git
+git remote remove origin
+git remote add origin  https://github.com/shivpip/test.git
+git push -f  origin master  https://github.com/shivpip/test.git
+git push -f  origin master  https://github.com/shivpip/test
+git push -f  origin master  https://github.com/shivpip/test.git
+ls
+vi abc.txt 
+git add .
+git commit -m "dfdsf"
+sudo su -
+history
+git brach dev -b
